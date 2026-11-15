@@ -1,0 +1,13 @@
+{
+  "name": "workerstack-frontend",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "postinstall": "repo sync --postinstall"
+  },
+  "devDependencies": {
+    "@workerstack/repo": "0.2.0-rc.2"
+  },
+  "packageManager": "bun@1.4.4"
+}
